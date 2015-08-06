@@ -369,8 +369,9 @@ Get_RandomRegion<-function(SNP.Dist,SubRegion.Length){
 	if(SubRegion.Length < 0){
 		return(1:length(SNP.Dist))
 	}
-	while(length(IDX) == 0){
-		total.first<-min(SNP.Dist)
+  IDX <- 1[0]
+	while(length(IDX) == 0) {
+	  total.first<-min(SNP.Dist)
 		total.last<-max(SNP.Dist)
 		total.length<-total.last -total.first
 	
